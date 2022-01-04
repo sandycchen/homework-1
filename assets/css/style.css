@@ -1,7 +1,17 @@
+/* apply styles to all */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+/* apply styles to body */
+body {
+    background-color: #d9dcd6;
+}
+
+body p {
+    font-size: 16px;
 }
 
 /* apply styles to header */
@@ -43,15 +53,6 @@ header a {
     text-decoration: none;
 }
 
-/* apply styles to body */
-body {
-    background-color: #d9dcd6;
-}
-
-body p {
-    font-size: 16px;
-}
-
 /* apply styles to hero */
 #hero {
     height: 800px;
@@ -62,7 +63,7 @@ body p {
     background-position: center;
 }
 
-/* apply styles to content */
+/* apply styles to content section */
 .content {
     width: 75%;
     display: inline-block;
@@ -97,7 +98,7 @@ body p {
     font-size: 36px;
 }
 
-/* apply styles to benefits */
+/* apply styles to benefits section */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -126,13 +127,13 @@ body p {
 }
 
 /* apply styles to footer */
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
